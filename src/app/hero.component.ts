@@ -10,4 +10,8 @@ export class HeroComponent {
     title = 'Hero!!!';
     hero: Hero = { id: 1, name: 'Wonder Woman' };
     heroes: Hero[] = HEROES;
+
+    changeHero(hero: Hero) {
+        this.hero = hero;
+    }
 }
