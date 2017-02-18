@@ -1,0 +1,5 @@
+<form [formGroup]="addHeroForm" (ngSubmit)="doAdd($event)">
+    <input formControlName="name" type="text" placeholder="Hero Name">
+    <input formControlName="id" type="text" placeholder="Hero ID">
+  <button type="submit">Add</button>
+</form>
